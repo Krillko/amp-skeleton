@@ -1,0 +1,27 @@
+name: Amp Skeleton
+version: 0.1.0
+description: Minimal AMP (accelerated mobile pages) template
+icon: rebel
+author:
+  name: Kristoffer Ekendahl
+  email: kristoffer.ekendahl@gmail.com
+homepage: https://github.com/kristoffer-ekendahl/amp-skeleton
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/kristoffer-ekendahl/amp-skeleton/issues
+readme: https://github.com/kristoffer-ekendahl/amp-skeleton/blob/develop/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in Menu
+        highlight: 1
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool
